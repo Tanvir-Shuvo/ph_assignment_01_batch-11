@@ -3,6 +3,8 @@ body{
     padding: 0;
     background-color: #F5F5F5;
 }
+/***font css***/
+
 
 /***Header css***/
 
@@ -28,6 +30,10 @@ header{
     border-radius: 8px;
     border: 1px solid #006A50;
     cursor: pointer;
+}
+.sign-in-btn button:hover{
+    background-color: #006A50;
+    color:#ffffff;
 }
 
 /***Banner css***/
@@ -65,4 +71,8 @@ header{
     border: none;
     border-radius: 8px;
     cursor: pointer;
+}
+.banner-content button:hover{
+    color:#006A50;
+    background-color: #ffffff;
 }
