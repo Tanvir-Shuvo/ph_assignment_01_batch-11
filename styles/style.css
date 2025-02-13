@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+/***Header css***/
+
+header{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 120px;
+    max-width: 1280px;
+}
+.headline-text h1{
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0;
+}
+.sign-in-btn button{
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    cursor: pointer;
+}
+
+/***Banner css***/
+.banner-section {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #C6E4D6;
+    border-radius: 20px;
+}
+.banner-box {
+    padding: 60px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: #0E0E0E;
+    opacity: 50%;
+}
+.banner-content h1 {
+    margin: 16px 0 24px 0;
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.banner-content button {
+    background-color: #006A50;
+    color: #ffffff;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
