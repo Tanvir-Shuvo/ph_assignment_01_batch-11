@@ -192,3 +192,89 @@ header{
     background-color: #FFFFFF;
     color: rgba(255, 194, 57, 1);;
 }
+
+
+/***quote css***/
+.quote-section {
+    margin: 0 auto;
+    max-width: 1280px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    margin-bottom: 40px;
+    
+}
+.quote-content {
+    padding: 48px 24px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+.quote-content .quote-comment {
+    color: rgba(14, 14, 14, 0.8);
+    margin: 25px 0 0 0;
+}
+.quote-content .quote-author {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.quote-content .quote-designation {
+    color: rgba(14, 14, 14, 0.6);
+    
+}
+
+/***opinion css***/
+.opinion-section {
+    margin: 40px auto;
+    max-width: 1280px;
+}
+.opinion-section .opinion-header {
+    margin: 0 0 24px 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+}
+.opinion-section .opinion-option {
+    background-color: #FFFFFF;
+    padding: 32px;
+    border-radius: 16px;
+}
+.opinion-section .opinion-option .option-heading {
+    background-color: rgba(198, 228, 214, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.option-heading h3 {
+    margin: 0;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 1);
+}
+
+.option-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    
+}
+.option-box .option-text {
+    padding: 24px;
+}
+.option-box .option-text p {
+    margin: 0;
+    font-weight: 600;
+}
+.option-box .option-ceckbox {
+    padding: 24px;
+    border-left: 1px solid rgba(14, 14, 14, 0.15);
+}
+.option-box .option-ceckbox .options{
+    background-color: rgba(198, 228, 214, 1);
+    padding: 10px 4px;
+    border: 1px solid rgba(14, 14, 14, 1);
+    border-radius: 4px;
+    font-weight: 600;
+}
