@@ -84,7 +84,7 @@ header{
 }
 .pillar-section h1 {
     margin: 0 0 32px 0;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
     color: #0E0E0E;
 }
@@ -97,4 +97,98 @@ header{
     background-color: #ffffff;
     padding: 24px;
     border-radius: 16px;
+}
+
+/***vision css***/
+.vision-section {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.vision-section h1 {
+    margin: 0 0 24px 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+.vision-section .vision-text {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+
+.vision-boxes {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 32px 0;
+}
+.vision-box {
+    padding: 32px;
+    border-radius: 16px;
+    width: 410px;
+}
+.vision-box h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin: 24px 0 12px 0;
+}
+.vision-box p {
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin: 0 0 20px 0;
+}
+.vision-boxes .vision-box-1 {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vision-boxes .vision-box-1 button {
+    padding: 11px 20px;
+    background-color: rgba(84, 144, 245, 1);
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+.vision-boxes .vision-box-1 button:hover{
+    background-color: #FFFFFF;
+    color: rgba(84, 144, 245, 1);
+}
+.vision-boxes .vision-box-2 {
+    background-color: rgba(198, 228, 214, 1);
+}
+.vision-boxes .vision-box-2 button {
+    padding: 11px 20px;
+    background-color: rgba(9, 161, 92, 1);
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+.vision-boxes .vision-box-2 button:hover{
+    background-color: #FFFFFF;
+    color: rgba(9, 161, 92, 1);
+}
+.vision-boxes .vision-box-3 {
+    background-color: rgba(247, 235, 207, 1);
+}
+.vision-boxes .vision-box-3 button {
+    padding: 11px 20px;
+    background-color: rgba(255, 194, 57, 1);
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+.vision-boxes .vision-box-3 button:hover{
+    background-color: #FFFFFF;
+    color: rgba(255, 194, 57, 1);;
 }
