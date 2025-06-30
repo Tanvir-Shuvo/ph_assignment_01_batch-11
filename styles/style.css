@@ -397,8 +397,9 @@ header {
 
 /***Donate css***/
 .donate-section {
-    margin: 40px auto;
+    margin: 0 auto;
     max-width: 1280px;
+    margin-bottom: 80px;
 }
 
 .donate-title-text {
@@ -466,13 +467,103 @@ header {
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 600;
-    border: none;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px solid #006A50;
 }
 
 .donate-btn:hover {
     background-color: #FFFFFF;
     color: #006A50;
     border: 1px solid #006A50;
+}
+
+/***subscribe css***/
+.subscribe-section {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    max-width: 1280px;
+    text-align: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+
+.subscribe-inner-box {
+    padding: 80px 100px;
+}
+
+.subscribe-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.subscribe-text {
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    text-align: center;
+    width: 60%;
+}
+
+.subscribe-field {
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-input {
+    padding: 18px 40px;
+    flex-grow: .6;
+    border-radius: 8px 0 0 8px;
+    border: none;
+}
+
+.subscribe-input::placeholder {
+    color: rgba(14, 14, 14, 0.3)
+}
+
+.subscribe-btn {
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: #FFFFFF;
+    color: #006A50;
+    border: 1px solid #006A50;
+}
+
+/***footer css***/
+
+.footer-section {
+    margin: 50px auto;
+    width: 1280px;
+    text-align: center;
+}
+
+.footer-title {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.footer-section hr {
+    width: 90%;
+    color: rgba(14, 14, 14, 0.1);
+    opacity: 30%;
+    margin: 32px auto;
+    text-align: center;
+}
+
+.footer-logo {
+    padding: 0 10px;
 }
