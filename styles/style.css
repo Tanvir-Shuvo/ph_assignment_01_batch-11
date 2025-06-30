@@ -394,4 +394,85 @@ header {
     background-color: #ffffff;
     border: 1px solid #006A50;
 }
+
 /***Donate css***/
+.donate-section {
+    margin: 40px auto;
+    max-width: 1280px;
+}
+
+.donate-title-text {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.donate-title {
+    margin: 0 0 24px 0;
+    font-size: 40px;
+}
+
+.donate-text {
+    color: rgba(14, 14, 14, 0.7);
+    margin: 0;
+    line-height: 24px;
+}
+
+.donate-amount {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.amount-btn {
+    padding: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    border-color: rgba(14, 14, 14, 0.15);
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.amount-btn-focus {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.amount-btn:hover {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.donate-amount-field {
+    margin: 0 auto;
+    display: flex;
+    width: 75%;
+    padding: 20px 40px;
+    text-align: center;
+    margin-bottom: 32px;
+    border: none;
+    border-bottom-color: rgba(14, 14, 14, 0.15);
+
+}
+
+.donate-amount-field::placeholder {
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+}
+
+.donate-btn {
+    margin: 0 auto;
+    display: flex;
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.donate-btn:hover {
+    background-color: #FFFFFF;
+    color: #006A50;
+    border: 1px solid #006A50;
+}
