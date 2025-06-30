@@ -1,14 +1,15 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #F5F5F5;
 }
+
 /***font css***/
 
 
 /***Header css***/
 
-header{
+header {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -16,13 +17,15 @@ header{
     padding: 24px 120px;
     max-width: 1280px;
 }
-.headline-text h1{
+
+.headline-text h1 {
     color: #0E0E0E;
     font-weight: bold;
     font-size: 32px;
     margin: 0;
 }
-.sign-in-btn button{
+
+.sign-in-btn button {
     padding: 15px 30px;
     font-size: 18px;
     font-weight: 600;
@@ -31,9 +34,10 @@ header{
     border: 1px solid #006A50;
     cursor: pointer;
 }
-.sign-in-btn button:hover{
+
+.sign-in-btn button:hover {
     background-color: #006A50;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 /***Banner css***/
@@ -43,12 +47,14 @@ header{
     background-color: #C6E4D6;
     border-radius: 20px;
 }
+
 .banner-box {
     padding: 60px 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .banner-content p {
     margin: 0;
     font-size: 24px;
@@ -56,12 +62,14 @@ header{
     color: #0E0E0E;
     opacity: 50%;
 }
+
 .banner-content h1 {
     margin: 16px 0 24px 0;
     font-size: 56px;
     font-weight: bold;
     color: #0E0E0E;
 }
+
 .banner-content button {
     background-color: #006A50;
     color: #ffffff;
@@ -72,8 +80,9 @@ header{
     border-radius: 8px;
     cursor: pointer;
 }
-.banner-content button:hover{
-    color:#006A50;
+
+.banner-content button:hover {
+    color: #006A50;
     background-color: #ffffff;
 }
 
@@ -82,17 +91,20 @@ header{
     margin: 80px auto;
     max-width: 1280px;
 }
+
 .pillar-section h1 {
     margin: 0 0 32px 0;
     font-size: 40px;
     font-weight: bold;
     color: #0E0E0E;
 }
+
 .pillar-boxes {
     display: flex;
     align-items: center;
     gap: 24px;
 }
+
 .pillar-box {
     background-color: #ffffff;
     padding: 24px;
@@ -127,26 +139,31 @@ header{
     gap: 24px;
     margin: 32px 0;
 }
+
 .vision-box {
     padding: 32px;
     border-radius: 16px;
     width: 410px;
 }
+
 .vision-box h3 {
     font-size: 20px;
     font-weight: bold;
     color: #0E0E0E;
     margin: 24px 0 12px 0;
 }
+
 .vision-box p {
     font-weight: 400;
     line-height: 24px;
     color: rgba(14, 14, 14, 0.7);
     margin: 0 0 20px 0;
 }
+
 .vision-boxes .vision-box-1 {
     background-color: rgba(84, 144, 245, 0.2);
 }
+
 .vision-boxes .vision-box-1 button {
     padding: 11px 20px;
     background-color: rgba(84, 144, 245, 1);
@@ -156,13 +173,16 @@ header{
     font-weight: 600;
     cursor: pointer;
 }
-.vision-boxes .vision-box-1 button:hover{
+
+.vision-boxes .vision-box-1 button:hover {
     background-color: #FFFFFF;
     color: rgba(84, 144, 245, 1);
 }
+
 .vision-boxes .vision-box-2 {
     background-color: rgba(198, 228, 214, 1);
 }
+
 .vision-boxes .vision-box-2 button {
     padding: 11px 20px;
     background-color: rgba(9, 161, 92, 1);
@@ -172,13 +192,16 @@ header{
     font-weight: 600;
     cursor: pointer;
 }
-.vision-boxes .vision-box-2 button:hover{
+
+.vision-boxes .vision-box-2 button:hover {
     background-color: #FFFFFF;
     color: rgba(9, 161, 92, 1);
 }
+
 .vision-boxes .vision-box-3 {
     background-color: rgba(247, 235, 207, 1);
 }
+
 .vision-boxes .vision-box-3 button {
     padding: 11px 20px;
     background-color: rgba(255, 194, 57, 1);
@@ -188,9 +211,11 @@ header{
     font-weight: 600;
     cursor: pointer;
 }
-.vision-boxes .vision-box-3 button:hover{
+
+.vision-boxes .vision-box-3 button:hover {
     background-color: #FFFFFF;
-    color: rgba(255, 194, 57, 1);;
+    color: rgba(255, 194, 57, 1);
+    ;
 }
 
 
@@ -201,27 +226,31 @@ header{
     background-color: #FFFFFF;
     border-radius: 16px;
     margin-bottom: 40px;
-    
+
 }
+
 .quote-content {
     padding: 48px 24px;
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
     background-origin: content-box;
 }
+
 .quote-content .quote-comment {
     color: rgba(14, 14, 14, 0.8);
     margin: 25px 0 0 0;
 }
+
 .quote-content .quote-author {
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
     font-weight: 600;
     margin: 0;
 }
+
 .quote-content .quote-designation {
     color: rgba(14, 14, 14, 0.6);
-    
+
 }
 
 /***opinion css***/
@@ -229,17 +258,20 @@ header{
     margin: 40px auto;
     max-width: 1280px;
 }
+
 .opinion-section .opinion-header {
     margin: 0 0 24px 0;
     font-size: 40px;
     font-weight: bold;
     color: rgba(14, 14, 14, 1);
 }
+
 .opinion-section .opinion-option {
     background-color: #FFFFFF;
     padding: 32px;
     border-radius: 16px;
 }
+
 .opinion-section .opinion-option .option-heading {
     background-color: rgba(198, 228, 214, 1);
     display: flex;
@@ -247,6 +279,7 @@ header{
     padding: 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
+
 .option-heading h3 {
     margin: 0;
     font-size: 20px;
@@ -258,23 +291,107 @@ header{
     justify-content: space-between;
     align-items: center;
     border: 1px solid rgba(14, 14, 14, 0.15);
-    
+
 }
+
 .option-box .option-text {
     padding: 24px;
 }
+
 .option-box .option-text p {
     margin: 0;
     font-weight: 600;
 }
+
 .option-box .option-ceckbox {
     padding: 24px;
     border-left: 1px solid rgba(14, 14, 14, 0.15);
 }
-.option-box .option-ceckbox .options{
+
+.option-box .option-ceckbox .options {
     background-color: rgba(198, 228, 214, 1);
     padding: 10px 4px;
     border: 1px solid rgba(14, 14, 14, 1);
     border-radius: 4px;
     font-weight: 600;
 }
+
+/***Recent News css***/
+.recent-news-section {
+    margin: 40px auto;
+    max-width: 1280px;
+}
+
+.recent-news-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 12px 0;
+}
+
+.recent-news-text {
+    margin: 12px 0 20px 0;
+    line-height: 1.4;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.recent-news-box-left {
+    margin: 12px 0;
+    background-color: #FFFFFF;
+    padding: 48px;
+    display: flex;
+    border-radius: 24px;
+    column-gap: 32px;
+}
+
+.recent-news-box-right {
+    margin: 24px 0;
+    background-color: #FFFFFF;
+    padding: 48px;
+    display: flex;
+    border-radius: 24px;
+    column-gap: 32px;
+}
+
+.news-box-img {
+    border-radius: 24px;
+}
+
+.news-text-title {
+    margin: 0;
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.news-text-date-time {
+    display: flex;
+    column-gap: 15px;
+}
+
+.news-text-date-time p {
+    margin: 5px 0;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
+
+.news-text-main {
+    margin: 12px 0 32px 0;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
+
+.news-text.btn {
+    background-color: #006A50;
+    font-size: 18px;
+    padding: 13px 26px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.news-text.btn:hover {
+    color: #006A50;
+    background-color: #ffffff;
+    border: 1px solid #006A50;
+}
+/***Donate css***/
